@@ -1,0 +1,32 @@
+p{
+    background-color: aquamarine;
+}
+
+a{
+    background-color: rgb(242, 160, 122);
+}
+
+div{
+    background-color: yellow;
+}
+
+span{
+    background-color: rgb(198, 165, 230);
+}
+
+/* For Id and Classes */
+.red{
+ color: white;
+}
+
+.bg-yellow{
+    background-color: yellow;
+}
+
+#firstdiv{
+    background-color: red; 
+}
+
+#seconddiv{
+    color: cadetblue;
+}
