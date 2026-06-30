@@ -14,3 +14,7 @@ else{
 }
 
 console.log("Your number is " + a);
+
+document.title = "Hey I am Mohini."
+
+document.body.style.backgroundColor = "#df7979";
