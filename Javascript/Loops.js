@@ -35,8 +35,9 @@ let a = 1;
 //     i++;
 // }
 
-let i = 0;
-do {
-    console.log(i)
-    i++;
-} while (i < 6); 
+// let i = 0;
+// do {
+//     console.log(i)
+//     i++;
+// } while (i < 6); 
+
