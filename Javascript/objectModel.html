@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript DOM</title>
+</head>
+<body>
+    <div class="container">
+        This is a box.
+    </div>
+    <script>
+        //DOM - Document Object Model
+        //DOM is a programming interface for HTML and XML documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects; that way, programming languages can interact with the page.
+
+        document.title = "JavaScript DOM";
+        console.log(document.title);
+        console.log(document.body);
+        document.body.style.backgroundColor = "#b4a0ba";
+
+        //BOM - Browser Object Model
+        //BOM is a collection of objects that allow you to interact with the browser. It provides methods to manipulate the browser window, control the browser history, and access information about the user's environment.
+        console.log(window.innerWidth);
+        console.log(window.document.body);
+        console.log(window.location.href);
+
+    </script>
+</body>
+</html>
